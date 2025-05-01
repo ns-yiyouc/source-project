@@ -4,3 +4,5 @@ github.com/ns-yiyouc/mock-dependency-project v0.1.2 h1:iv4ynxsShzfpMpWed3IIC4WT/
 github.com/ns-yiyouc/mock-dependency-project v0.1.2/go.mod h1:+E5QLwiX19yUTYsnHDKnwcj6LU5kh0n3yf/oW4Y1Ysw=
 github.com/ns-yiyouc/mock-dependency-project v1.0.0 h1:hJFoOrXliX7q1AN7on4xfBMcoU7vtlxJ5uiRRC/sMOY=
 github.com/ns-yiyouc/mock-dependency-project v1.0.0/go.mod h1:+E5QLwiX19yUTYsnHDKnwcj6LU5kh0n3yf/oW4Y1Ysw=
+github.com/ns-yiyouc/mock-dependency-project v1.1.0 h1:GaXJSgqrhA1jHvkLTUjC9s9rMFpH7thT3VM9c8zfOtk=
+github.com/ns-yiyouc/mock-dependency-project v1.1.0/go.mod h1:+E5QLwiX19yUTYsnHDKnwcj6LU5kh0n3yf/oW4Y1Ysw=
