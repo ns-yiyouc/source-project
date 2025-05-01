@@ -14,7 +14,6 @@
         "matchPackageNames": ["golang/go"],
         "matchManagers": ["gomod"],
         "enabled": true,
-        "datasource": "github-releases",
         "automerge": true
       }
     ],
