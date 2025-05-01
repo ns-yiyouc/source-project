@@ -7,7 +7,7 @@
     "packageRules": [
       {
         "matchManagers": ["gomod"],
-        "matchUpdateTypes": ["minor", "patch"],
+        "matchUpdateTypes": ["minor", "patch", "major"],
         "automerge": true
       },
       {
