@@ -9,4 +9,6 @@ import (
 func main() {
 	fmt.Println(mock.Mock)
 	fmt.Println(mock.Mock)
+	fmt.Println(mock.Mock)
+	fmt.Println(mock.Mock)
 }
