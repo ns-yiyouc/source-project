@@ -20,6 +20,13 @@
         "matchManagers": ["github-actions"],
         "matchUpdateTypes": ["minor", "patch", "major"],
         "automerge": true
+      },
+      {
+        "matchPackageNames": ["github.com/ns-yiyouc/mock-dependency-project"],
+        "matchManagers": ["gomod"],
+        "rangeStrategy": "bump",
+        "enabled": true,
+        "automerge": true
       }
     ],
     "dependencyDashboard": true
