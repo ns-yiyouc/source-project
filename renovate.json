@@ -1,33 +1,15 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "lockFileMaintenance": {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "lockFileMaintenance": {
       "enabled": true,
       "automerge": true
-    },
-    "packageRules": [
+  },
+  "postUpdateOptions": ["gomodTidy", "gomodUpdateImportPaths"],
+  "packageRules": [
       {
-        "matchManagers": ["gomod"],
-        "matchUpdateTypes": ["minor", "patch", "major"],
-        "automerge": true
-      },
-      {
-        "matchPackageNames": ["golang/go"],
-        "matchManagers": ["gomod"],
-        "enabled": true,
-        "automerge": true
-      },
-      {
-        "matchManagers": ["github-actions"],
-        "matchUpdateTypes": ["minor", "patch", "major"],
-        "automerge": true
-      },
-      {
-        "matchPackageNames": ["github.com/ns-yiyouc/mock-dependency-project"],
-        "matchManagers": ["gomod"],
-        "rangeStrategy": "bump",
-        "enabled": true,
-        "automerge": true
+          "description": "Update all Go dependencies without a major version bump",
+          "matchUpdateTypes": ["patch", "minor"],
+          "automerge": true
       }
-    ],
-    "dependencyDashboard": true
-  }
+  ]
+}
