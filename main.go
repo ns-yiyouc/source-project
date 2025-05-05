@@ -11,4 +11,6 @@ func main() {
 	fmt.Println(mock.Mock)
 	fmt.Println(mock.Mock)
 	fmt.Println(mock.Mock2)
+	fmt.Println(mock.Mock3)
+
 }
